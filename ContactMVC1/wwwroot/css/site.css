@@ -1,0 +1,32 @@
+.contact {
+    border-radius: 50%;
+    border: 1px solid black;
+    width: 250px;
+    height: 250px;
+    margin: 40px;
+}
+
+    .contact div {
+        margin: 40px auto 20px;
+        border: 1px solid black;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        background-color: rgb(183, 183, 247);
+    }
+
+    .contact p {
+        text-align: center;
+        font-size: 19px;
+    }
+
+main {
+    display: flex;
+}
+ul{
+
+    display:flex;
+}
+li{
+    list-style-type:none;
+}

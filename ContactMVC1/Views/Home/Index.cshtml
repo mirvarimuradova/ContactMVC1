@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@using ContactMVC1.Models
+@model List<Contact> 
+<div class="text-center">
+
+    <a href="Detail/details">
+        <ul>
+            @foreach (Contact contact in Model)
+            {
+                <li>
+                    <div class="contact">
+                        <div></div>
+                        <p>@contact.Name</p>
+                        <p>@contact.Phone</p>
+
+                    </div>
+                </li>
+            }
+
+
+        </ul>
+    </a>
+   
+     
+</div>
